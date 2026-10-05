@@ -10,7 +10,7 @@ MEMORY_THRESHOLD=80
 DISK_THRESHOLD=80
 
 # Services to monitor
-SERVICES=("ssh" "docker")
+SERVICES=("ssh")
 
 # Project directories
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
