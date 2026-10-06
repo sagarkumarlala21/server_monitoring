@@ -4,6 +4,15 @@
 # ===============================
 # Load configuration
 source "$(dirname "$0")/config.sh"
+#time=$(date +"%Y-%m-%d %H:%M:%S")
+TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+mkdir -p "$LOG_DIR"
+exec > >(tee -a "$LOG_FILE") 2>&1
+echo ""
+echo "======================================"
+echo "Health Check Started: $TIMESTAMP"
+echo "======================================"
+
 # ==============================
 # CPU CHECK
 # ==============================
@@ -106,7 +115,7 @@ check_processes() {
 #MAIN  line to call the functions
 
 
-echo "======================================"
+
 echo "       SERVER HEALTH CHECK"
 echo "======================================"
 
@@ -130,3 +139,6 @@ check_processes
 # echo "Log File         : $LOG_FILE"
 echo ""
 echo "======================================"
+echo "Health check completed at: $TIMESTAMP" >> "$LOG_FILE"
+echo "======================================="
+echo "#################################################################################"

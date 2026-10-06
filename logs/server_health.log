@@ -1,0 +1,233 @@
+
+======================================
+Health Check Started: 2026-10-06 12:03:41
+======================================
+======================================
+       SERVER HEALTH CHECK
+======================================
+Hostname : sagar21
+Uptime   : up 19 hours, 42 minutes
+
+------ SYSTEM RESOURCE CHECK ------
+CPU Usage : 0%
+CPU Status: OK
+Memory Usage : 8%
+Memory Status: OK
+Disk Usage : 1%
+Disk Status: OK
+
+------ SERVICE CHECK ------
+ssh : NOT Running
+
+------ DOCKER CHECK ------
+Docker : NOT Running
+
+------ TOP PROCESSES ------
+13740 wsl-pro-service  0.1  0.1
+  241 snapd            0.0  0.5
+   93 systemd-udevd    0.0  0.0
+13214 bash             0.0  0.1
+   43 systemd-journal  0.0  0.2
+    1 systemd          0.0  0.1
+  130 snapfuse         0.0  0.1
+13210 Relay(13214)     0.0  0.0
+  205 systemd-timesyn  0.0  0.0
+  260 rsyslogd         0.0  0.0
+
+======================================
+Health check completed at: 2026-10-06 12:03:41
+=======================================
+
+Health Check Started: 2026-10-06 12:05:45
+======================================
+======================================
+       SERVER HEALTH CHECK
+======================================
+Hostname : sagar21
+Uptime   : up 19 hours, 44 minutes
+
+------ SYSTEM RESOURCE CHECK ------
+CPU Usage : 1%
+CPU Status: OK
+Memory Usage : 8%
+Memory Status: OK
+Disk Usage : 1%
+Disk Status: OK
+
+------ SERVICE CHECK ------
+ssh : NOT Running
+
+------ DOCKER CHECK ------
+Docker : NOT Running
+
+------ TOP PROCESSES ------
+13740 wsl-pro-service  0.0  0.1
+  241 snapd            0.0  0.5
+   93 systemd-udevd    0.0  0.0
+13214 bash             0.0  0.1
+   43 systemd-journal  0.0  0.2
+    1 systemd          0.0  0.1
+  130 snapfuse         0.0  0.1
+13210 Relay(13214)     0.0  0.0
+  205 systemd-timesyn  0.0  0.0
+  260 rsyslogd         0.0  0.0
+
+======================================
+Health check completed at: 2026-10-06 12:05:45
+=======================================
+
+Health Check Started: 2026-10-06 12:06:34
+======================================
+======================================
+       SERVER HEALTH CHECK
+======================================
+Hostname : sagar21
+Uptime   : up 19 hours, 45 minutes
+
+------ SYSTEM RESOURCE CHECK ------
+CPU Usage : 1%
+CPU Status: OK
+Memory Usage : 8%
+Memory Status: OK
+Disk Usage : 1%
+Disk Status: OK
+
+------ SERVICE CHECK ------
+ssh : NOT Running
+
+------ DOCKER CHECK ------
+Docker : NOT Running
+
+------ TOP PROCESSES ------
+  241 snapd            0.0  0.5
+13740 wsl-pro-service  0.0  0.1
+   93 systemd-udevd    0.0  0.0
+13214 bash             0.0  0.1
+   43 systemd-journal  0.0  0.2
+    1 systemd          0.0  0.1
+  130 snapfuse         0.0  0.1
+13210 Relay(13214)     0.0  0.0
+  205 systemd-timesyn  0.0  0.0
+  260 rsyslogd         0.0  0.0
+
+======================================
+Health check completed at: 2026-10-06 12:06:34
+=======================================
+#################################################################################
+
+Health Check Started: 2026-10-06 12:06:42
+======================================
+======================================
+       SERVER HEALTH CHECK
+======================================
+Hostname : sagar21
+Uptime   : up 19 hours, 45 minutes
+
+------ SYSTEM RESOURCE CHECK ------
+CPU Usage : 0%
+CPU Status: OK
+Memory Usage : 8%
+Memory Status: OK
+Disk Usage : 1%
+Disk Status: OK
+
+------ SERVICE CHECK ------
+ssh : NOT Running
+
+------ DOCKER CHECK ------
+Docker : NOT Running
+
+------ TOP PROCESSES ------
+  241 snapd            0.0  0.5
+13740 wsl-pro-service  0.0  0.1
+   93 systemd-udevd    0.0  0.0
+13214 bash             0.0  0.1
+   43 systemd-journal  0.0  0.2
+    1 systemd          0.0  0.1
+  130 snapfuse         0.0  0.1
+13210 Relay(13214)     0.0  0.0
+  205 systemd-timesyn  0.0  0.0
+  260 rsyslogd         0.0  0.0
+
+======================================
+Health check completed at: 2026-10-06 12:06:42
+=======================================
+#################################################################################
+
+======================================
+Health Check Started: 2026-10-06 12:07:33
+======================================
+       SERVER HEALTH CHECK
+======================================
+Hostname : sagar21
+Uptime   : up 19 hours, 46 minutes
+
+------ SYSTEM RESOURCE CHECK ------
+CPU Usage : 0%
+CPU Status: OK
+Memory Usage : 8%
+Memory Status: OK
+Disk Usage : 1%
+Disk Status: OK
+
+------ SERVICE CHECK ------
+ssh : NOT Running
+
+------ DOCKER CHECK ------
+Docker : NOT Running
+
+------ TOP PROCESSES ------
+  241 snapd            0.0  0.5
+   93 systemd-udevd    0.0  0.0
+13740 wsl-pro-service  0.0  0.1
+13214 bash             0.0  0.1
+   43 systemd-journal  0.0  0.2
+    1 systemd          0.0  0.1
+  130 snapfuse         0.0  0.1
+13210 Relay(13214)     0.0  0.0
+  205 systemd-timesyn  0.0  0.0
+  260 rsyslogd         0.0  0.0
+
+======================================
+Health check completed at: 2026-10-06 12:07:33
+=======================================
+#################################################################################
+
+======================================
+Health Check Started: 2026-10-06 17:41:34
+======================================
+       SERVER HEALTH CHECK
+======================================
+Hostname : sagar21
+./server-health-check.sh: line 125: uptime: command not found
+Uptime   : 
+
+------ SYSTEM RESOURCE CHECK ------
+./server-health-check.sh: line 21: top: command not found
+awk: cmd. line:1: BEGIN {printf "%.0f", 100 - }
+awk: cmd. line:1:                             ^ syntax error
+CPU Usage : %
+./server-health-check.sh: line 27: [: : integer expression expected
+CPU Status: OK
+./server-health-check.sh: line 38: free: command not found
+Memory Usage : %
+./server-health-check.sh: line 42: [: : integer expression expected
+Memory Status: OK
+Disk Usage : 92733648%
+Disk Status: WARNING
+
+------ SERVICE CHECK ------
+./server-health-check.sh: line 75: systemctl: command not found
+ssh : NOT Running
+
+------ DOCKER CHECK ------
+Docker : NOT Running
+
+------ TOP PROCESSES ------
+ps: unknown option -- o
+Try `ps --help' for more information.
+
+======================================
+Health check completed at: 2026-10-06 17:41:34
+=======================================
+#################################################################################
